@@ -7,5 +7,6 @@ Makefile
 cmake_install.cmake
 .project
 .cproject
+.code-workspace
 cmake-build-debug
 build

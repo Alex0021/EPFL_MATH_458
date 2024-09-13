@@ -9,8 +9,9 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/solved_exercises/${fileDirnameBasename}/${fileBasenameNoExtension}",
-            "args": ["test", "test2"],
+            "args": [],
             "cwd": "${workspaceFolder}/solved_exercises/${fileDirnameBasename}",
+            "preLaunchTask": "prebuild"
         }
     ]
 }

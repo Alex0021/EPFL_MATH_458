@@ -18,6 +18,8 @@ int main(int argc, char* argv[])
 	 * The body of the program goes here
 	 */
 
+	std::cout << "Bonjour, world!" << std::endl;
+
 	if (argc > 1) {
 		std::cout << "The program was called with " << argc << " arguments." << std::endl;
 		std::cout << "The arguments are:" << std::endl;

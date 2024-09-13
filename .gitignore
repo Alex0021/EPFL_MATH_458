@@ -8,5 +8,6 @@ cmake_install.cmake
 .project
 .cproject
 .code-workspace
+.vscode
 cmake-build-debug
 build

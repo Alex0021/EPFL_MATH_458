@@ -4,3 +4,5 @@ project(PCSC-SolvedExercises)
 set(CMAKE_CXX_STANDARD 20)
 
 add_subdirectory(ex0_intro)
+add_subdirectory(chapter2)
+add_subdirectory(chapter3)

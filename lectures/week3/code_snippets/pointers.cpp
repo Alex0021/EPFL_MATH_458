@@ -7,7 +7,6 @@
 
 void two_variables() {
   int x = 1; 
-
   int y = 2;
   std::cout << &x << "\n";
 }

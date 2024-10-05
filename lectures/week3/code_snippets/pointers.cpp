@@ -130,14 +130,14 @@ void row_major_allocation() {
 
   double **A = new double *[rows];
   for (int i = 0; i < rows; i++) {
-    A[i] = &p_a[i * rows];
-    A[i] = p_a + i * rows;
+    A[i] = &p_a[i * cols];
+    A[i] = p_a + i * cols;
   }
 
   // you can access the values of the array with
   A[2][4] = 5;
   // or with
-  p_a[2 * rows + 4] = 5;
+  p_a[2 * cols + 4] = 5;
 
   // At the end: de-allocate the memory
   delete[] A;

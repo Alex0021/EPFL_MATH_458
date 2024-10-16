@@ -9,6 +9,6 @@ int main()
     i = 10;     // inherited from Block 1
   }
   // variable j is destructed
-  j = 5; // so ?
+  // j = 5; // so ?
 }
 // variable i is destructed
